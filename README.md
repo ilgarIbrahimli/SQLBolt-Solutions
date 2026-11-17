@@ -28,4 +28,4 @@ To strengthen my SQL skills and demonstrate practical database querying knowledg
 [SQLBolt - Learn SQL](https://sqlbolt.com/)
 
 ## Important
-In case the code doesn't satisfy the exercise try deleting comments which starts withs --
+In case the code doesn't satisfy the exercise try deleting comments which starts with --
