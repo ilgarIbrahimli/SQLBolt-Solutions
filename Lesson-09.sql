@@ -15,3 +15,7 @@ SELECT Title, Rating * 10 AS Rate FROM Movies --retrieves Title and Rate columns
 LEFT JOIN Boxoffice --joins Movies and Boxoffice tables by keeping all row of Movies table and matching rows of Boxoffice table
     ON Movies.Id = Boxoffice.Movie_id ----puts a condition ON Id and Movie_id columns being join columns
 
+-Exercise-3
+SELECT Title, Year FROM Movies --retrieves Title and Year columns from Movies
+WHERE Year % 2 = 0; --puts a condition for records to have even Year by making it's Year dividing by 2 being equal to 0 
+
